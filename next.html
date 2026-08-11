@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+function validate(){
+		alert("Login successful");
+		var unm=localStorage.getItem("uname");
+	        document.getElementById("next").innerHTML = unm + "Login successful <b>";
+}
+</script>
+</head>
+<body onload="validate()">
+<p id="next">
+</p>
+</body>
+</html>		
